@@ -7,6 +7,7 @@ export default defineUserConfig({
 
   title: 'Steeve\'s PC Build Guide',
   description: 'How to build your own PC',
+  base: '/pc-build-guide/',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
