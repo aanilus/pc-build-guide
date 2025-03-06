@@ -6,9 +6,9 @@ export const routes = Object.fromEntries([
   ["/faq.html", { loader: () => import(/* webpackChunkName: "faq.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/faq.html.js"), meta: {"title":"FAQ"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
   ["/parts.html", { loader: () => import(/* webpackChunkName: "parts.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/parts.html.js"), meta: {"title":"Parts"} }],
+  ["/resources.html", { loader: () => import(/* webpackChunkName: "resources.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/resources.html.js"), meta: {"title":"Resources"} }],
   ["/troubleshooting.html", { loader: () => import(/* webpackChunkName: "troubleshooting.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/troubleshooting.html.js"), meta: {"title":"Troubleshooting"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
-  ["/resources.html", { loader: () => import(/* webpackChunkName: "resources.html" */"/Users/alexa./Web/Projects/pc-build-guide/docs/.vuepress/.temp/pages/resources.html.js"), meta: {"title":"Resources"} }],
 ]);
 
 if (import.meta.webpackHot) {

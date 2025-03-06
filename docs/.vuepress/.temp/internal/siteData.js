@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"Steeve's PC Build Guide\",\"description\":\"How to build your own PC\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/pc-build-guide/\",\"lang\":\"en-US\",\"title\":\"Steeve's PC Build Guide\",\"description\":\"How to build your own PC\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
