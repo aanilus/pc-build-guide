@@ -12,7 +12,19 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
-    navbar: ['/', '/get-started', '/parts', '/build', '/troubleshooting', '/faq', '/resources'],
+    navbar: [
+        '/',
+        '/get-started',
+        {
+          text: 'Parts',
+          children: ['/basic-parts', '/advanced-parts'],
+        },
+        '/build',
+        '/troubleshooting',
+        '/faq',
+        '/resources',
+    ],
+    sidebarDepth: 3,
   }),
 
   bundler: viteBundler(),
